@@ -9,7 +9,7 @@
 <br/>
 
 <img src="https://img.shields.io/badge/Bangkok-Thailand-2c5364?style=for-the-badge&logo=googlemaps&logoColor=white" alt="location" />
-<a href="https://github.com/moszer?tab=repositories"><img src="https://img.shields.io/badge/Repos-56-0f2027?style=for-the-badge&logo=github&logoColor=white" alt="repos" /></a>
+<a href="https://github.com/moszer?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fmoszer&query=%24.public_repos&label=Repos&style=for-the-badge&logo=github&logoColor=white&color=0f2027" alt="repos" /></a>
 <img src="https://komarev.com/ghpvc/?username=moszer&style=for-the-badge&color=203a43&label=PROFILE+VIEWS" alt="views" />
 
 </div>
@@ -62,31 +62,71 @@ motto:      "if it has a chip in it, it can probably run my code"
 
 ## 🚀 Featured Projects
 
-<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<a href="https://github.com/moszer/blastblock_hack">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=moszer&repo=blastblock_hack&theme=tokyonight&hide_border=true" alt="blastblock_hack" />
-</a>
-<a href="https://github.com/moszer/PCB_DETECT_RMUTT">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=moszer&repo=PCB_DETECT_RMUTT&theme=tokyonight&hide_border=true" alt="PCB_DETECT_RMUTT" />
-</a>
-<a href="https://github.com/moszer/UPDATE_FIRMWARE_2C23T">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=moszer&repo=UPDATE_FIRMWARE_2C23T&theme=tokyonight&hide_border=true" alt="UPDATE_FIRMWARE_2C23T" />
-</a>
-<a href="https://github.com/moszer/simulation_redstone_computer">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=moszer&repo=simulation_redstone_computer&theme=tokyonight&hide_border=true" alt="simulation_redstone_computer" />
-</a>
+### 🧩 [blastblock&#95;hack](https://github.com/moszer/blastblock_hack)
 
-</div>
+Grid-path solver that reads an irregular board straight from your phone camera and animates the solution across it.
+
+<img src="https://img.shields.io/github/languages/top/moszer/blastblock_hack?style=flat-square&color=203a43" alt="lang" />
+<img src="https://img.shields.io/github/last-commit/moszer/blastblock_hack?style=flat-square&color=0f2027&label=updated" alt="updated" />
+
+`Next.js 16` `TypeScript` `OpenCV.js` `Tailwind`
+
+</td>
+<td width="50%" valign="top">
+
+### 🔍 [PCB&#95;DETECT&#95;RMUTT](https://github.com/moszer/PCB_DETECT_RMUTT)
+
+PCB defect detection pipeline, with a [desktop GUI companion](https://github.com/moszer/PCB_DETECT_RMUTT_GUI) for running inspections.
+
+<img src="https://img.shields.io/github/languages/top/moszer/PCB_DETECT_RMUTT?style=flat-square&color=203a43" alt="lang" />
+<img src="https://img.shields.io/github/last-commit/moszer/PCB_DETECT_RMUTT?style=flat-square&color=0f2027&label=updated" alt="updated" />
+
+`Python` `OpenCV`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📡 [UPDATE&#95;FIRMWARE&#95;2C23T](https://github.com/moszer/UPDATE_FIRMWARE_2C23T)
+
+Firmware update tooling for embedded targets — my most-starred repo so far.
+
+<img src="https://img.shields.io/github/stars/moszer/UPDATE_FIRMWARE_2C23T?style=flat-square&color=2c5364" alt="stars" />
+<img src="https://img.shields.io/github/last-commit/moszer/UPDATE_FIRMWARE_2C23T?style=flat-square&color=0f2027&label=updated" alt="updated" />
+
+`Python` `ESP32`
+
+</td>
+<td width="50%" valign="top">
+
+### 🟥 [simulation&#95;redstone&#95;computer](https://github.com/moszer/simulation_redstone_computer)
+
+An 8-bit redstone-style computer, simulated gate by gate in the browser.
+
+<img src="https://img.shields.io/github/languages/top/moszer/simulation_redstone_computer?style=flat-square&color=203a43" alt="lang" />
+<img src="https://img.shields.io/github/last-commit/moszer/simulation_redstone_computer?style=flat-square&color=0f2027&label=updated" alt="updated" />
+
+`JavaScript` `Canvas`
+
+</td>
+</tr>
+</table>
+
+### More things I've built
 
 | Project | What it does | Stack |
 | --- | --- | --- |
-| [**blastblock_hack**](https://github.com/moszer/blastblock_hack) | Grid-path solver that reads an irregular board straight from your phone camera and animates the solution | Next.js 16 · TypeScript · OpenCV.js · Tailwind |
-| [**PCB_DETECT_RMUTT**](https://github.com/moszer/PCB_DETECT_RMUTT) | PCB defect detection with a desktop GUI companion | Python · OpenCV |
-| [**UPDATE_FIRMWARE_2C23T**](https://github.com/moszer/UPDATE_FIRMWARE_2C23T) | Firmware update tooling for embedded targets | Python |
-| [**AI-Calorie**](https://github.com/moszer/AI-Calorie) | iOS app that estimates calories from a food photo, with its own API backend | Swift · Node.js |
-| [**simulation_redstone_computer**](https://github.com/moszer/simulation_redstone_computer) | An 8-bit redstone-style computer simulated in the browser | JavaScript |
-| [**OTA_UPDATE_ESP32**](https://github.com/moszer/OTA_UPDATE_ESP32) | Reference implementation for over-the-air ESP32 updates | C++ · ESP-IDF |
+| [**AI-Calorie**](https://github.com/moszer/AI-Calorie) | iOS app that estimates calories from a food photo, with [its own API backend](https://github.com/moszer/api_cal_calorie) | Swift · Node.js |
+| [**OTA&#95;UPDATE&#95;ESP32**](https://github.com/moszer/OTA_UPDATE_ESP32) | Reference implementation for over-the-air ESP32 updates | C++ · ESP-IDF |
+| [**ble-react-esp32**](https://github.com/moszer/ble-react-esp32) | Talking to an ESP32 over BLE straight from a React app | JavaScript · Web Bluetooth |
+| [**tuatak&#95;order&#95;website**](https://github.com/moszer/tuatak_order_website) | Ordering site built end to end | TypeScript · Next.js |
+| [**remote&#95;control&#95;ir**](https://github.com/moszer/remote_control_ir) | IR remote control rig driven from the web | TypeScript · ESP32 |
+| [**Dump-m3u8**](https://github.com/moszer/Dump-m3u8) | HLS stream dumper — one of a whole family of m3u8 tools I kept rewriting | JavaScript · Express |
 
 ---
 
@@ -94,20 +134,33 @@ motto:      "if it has a chip in it, it can probably run my code"
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=moszer&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true" alt="stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=moszer&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="top langs" />
+<img src="https://github-stats-alpha.vercel.app/api?username=moszer&cc=1a1b27&tc=c0caf5&ic=7aa2f7&bc=1a1b27" alt="stats" />
 
 <br/><br/>
 
 <img src="https://streak-stats.demolab.com?user=moszer&theme=tokyonight&hide_border=true" alt="streak" />
 
+</div>
+
+### Languages by repo
+
+```text
+JavaScript   █████████████████░░░░░░░░░░░░░   26 repos   55.3%
+Python       ██████░░░░░░░░░░░░░░░░░░░░░░░░    9 repos   19.1%
+TypeScript   ████░░░░░░░░░░░░░░░░░░░░░░░░░░    6 repos   12.8%
+C++          █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    2 repos    4.3%
+C            █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    2 repos    4.3%
+Swift        █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    1 repo     2.1%
+Assembly     █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    1 repo     2.1%
+```
+
+<div align="center">
+
+<img src="https://github-trophies.vercel.app/?username=moszer&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" alt="trophies" />
+
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=moszer&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" alt="trophies" />
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=moszer&theme=tokyo-night&hide_border=true&area=true" alt="activity graph" />
+<img src="https://ghchart.rshah.org/7aa2f7/moszer" alt="contribution chart" width="90%" />
 
 </div>
 
